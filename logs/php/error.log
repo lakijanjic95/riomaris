@@ -1,0 +1,46 @@
+[27-Mar-2024 07:57:49 UTC] PHP Warning:  file_get_contents(C:\Users\Laki\Local Sites\rio\app\public/wp-content/upgrade/Avada-theme/Avada_Full_Package/style.css): Failed to open stream: Permission denied in C:\Users\Laki\Local Sites\rio\app\public\wp-includes\functions.php on line 6805
+[27-Mar-2024 08:02:28 UTC] PHP Warning:  file_get_contents(C:\Users\Laki\Local Sites\rio\app\public/wp-content/upgrade/themeforest-3dgOri69-avada-responsive-multipurpose-theme-2/Avada_Full_Package/style.css): Failed to open stream: Permission denied in C:\Users\Laki\Local Sites\rio\app\public\wp-includes\functions.php on line 6805
+[27-Mar-2024 08:18:25 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 281030160 bytes) in C:\Users\Laki\Local Sites\rio\app\public\wp-admin\includes\file.php on line 1797
+[27-Mar-2024 08:21:16 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 281030160 bytes) in C:\Users\Laki\Local Sites\rio\app\public\wp-admin\includes\file.php on line 1797
+[27-Mar-2024 08:23:55 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 281030160 bytes) in C:\Users\Laki\Local Sites\rio\app\public\wp-admin\includes\file.php on line 1797
+[29-Mar-2024 10:21:19 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 281030160 bytes) in C:\Users\Laki\Local Sites\rio\app\public\wp-admin\includes\file.php on line 1797
+[29-Mar-2024 10:32:07 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Laki\Local Sites\rio\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[29-Mar-2024 10:33:17 UTC] PHP Warning:  Attempt to read property "title" on null in C:\Users\Laki\Local Sites\rio\app\public\wp-includes\class-wp-customize-widgets.php on line 905
+[29-Mar-2024 10:38:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_check_post_lock() in C:\Users\Laki\Local Sites\rio\app\public\wp-content\themes\Avada\includes\lib\inc\fusion-app\class-fusion-app.php:2355
+Stack trace:
+#0 C:\Users\Laki\Local Sites\rio\app\public\wp-content\themes\Avada\includes\lib\inc\fusion-app\class-fusion-app.php(1692): Fusion_App->get_post_lock_data()
+#1 C:\Users\Laki\Local Sites\rio\app\public\wp-includes\class-wp-hook.php(324): Fusion_App->live_scripts('')
+#2 C:\Users\Laki\Local Sites\rio\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Users\Laki\Local Sites\rio\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\Laki\Local Sites\rio\app\public\wp-content\themes\Avada\includes\lib\inc\fusion-app\templates\front-customize.php(27): do_action('wp_enqueue_scri...')
+#5 C:\Users\Laki\Local Sites\rio\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Laki\\L...')
+#6 C:\Users\Laki\Local Sites\rio\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Laki\\L...')
+#7 C:\Users\Laki\Local Sites\rio\app\public\index.php(17): require('C:\\Users\\Laki\\L...')
+#8 {main}
+  thrown in C:\Users\Laki\Local Sites\rio\app\public\wp-content\themes\Avada\includes\lib\inc\fusion-app\class-fusion-app.php on line 2355
+[29-Mar-2024 11:10:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_check_post_lock() in C:\Users\Laki\Local Sites\rio\app\public\wp-content\themes\Avada\includes\lib\inc\fusion-app\class-fusion-app.php:2355
+Stack trace:
+#0 C:\Users\Laki\Local Sites\rio\app\public\wp-content\themes\Avada\includes\lib\inc\fusion-app\class-fusion-app.php(1692): Fusion_App->get_post_lock_data()
+#1 C:\Users\Laki\Local Sites\rio\app\public\wp-includes\class-wp-hook.php(324): Fusion_App->live_scripts('')
+#2 C:\Users\Laki\Local Sites\rio\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Users\Laki\Local Sites\rio\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\Laki\Local Sites\rio\app\public\wp-content\themes\Avada\includes\lib\inc\fusion-app\templates\front-customize.php(27): do_action('wp_enqueue_scri...')
+#5 C:\Users\Laki\Local Sites\rio\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Laki\\L...')
+#6 C:\Users\Laki\Local Sites\rio\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Laki\\L...')
+#7 C:\Users\Laki\Local Sites\rio\app\public\index.php(17): require('C:\\Users\\Laki\\L...')
+#8 {main}
+  thrown in C:\Users\Laki\Local Sites\rio\app\public\wp-content\themes\Avada\includes\lib\inc\fusion-app\class-fusion-app.php on line 2355
+[02-Apr-2024 11:16:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function wp_check_post_lock() in C:\Users\Laki\Local Sites\rio\app\public\wp-content\themes\Avada\includes\lib\inc\fusion-app\class-fusion-app.php:2355
+Stack trace:
+#0 C:\Users\Laki\Local Sites\rio\app\public\wp-content\themes\Avada\includes\lib\inc\fusion-app\class-fusion-app.php(1692): Fusion_App->get_post_lock_data()
+#1 C:\Users\Laki\Local Sites\rio\app\public\wp-includes\class-wp-hook.php(324): Fusion_App->live_scripts('')
+#2 C:\Users\Laki\Local Sites\rio\app\public\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#3 C:\Users\Laki\Local Sites\rio\app\public\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\Users\Laki\Local Sites\rio\app\public\wp-content\themes\Avada\includes\lib\inc\fusion-app\templates\front-customize.php(27): do_action('wp_enqueue_scri...')
+#5 C:\Users\Laki\Local Sites\rio\app\public\wp-includes\template-loader.php(106): include('C:\\Users\\Laki\\L...')
+#6 C:\Users\Laki\Local Sites\rio\app\public\wp-blog-header.php(19): require_once('C:\\Users\\Laki\\L...')
+#7 C:\Users\Laki\Local Sites\rio\app\public\index.php(17): require('C:\\Users\\Laki\\L...')
+#8 {main}
+  thrown in C:\Users\Laki\Local Sites\rio\app\public\wp-content\themes\Avada\includes\lib\inc\fusion-app\class-fusion-app.php on line 2355
+[02-Apr-2024 12:53:09 UTC] PHP Warning:  Undefined array key "icon_set_id" in C:\Users\Laki\Local Sites\rio\app\public\wp-content\themes\Avada\includes\importer\class-avada-demo-import.php on line 476
+[02-Apr-2024 12:53:09 UTC] PHP Warning:  Undefined array key "icon_set_id" in C:\Users\Laki\Local Sites\rio\app\public\wp-content\themes\Avada\includes\importer\class-avada-demo-import.php on line 476
